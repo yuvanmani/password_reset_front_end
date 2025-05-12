@@ -44,6 +44,10 @@ const Register = () => {
       <div>
         <p className="w-5/6 py-1 m-2 mt-0 ml-8 mb-0 text-md font-bold text-gray-700">Forgot Password?</p>
         <p className="w-5/6 py-1 m-2 mt-0 ml-8 text-md font-bold text-gray-700"><span className="text-green-600 underline"><Link to="/forgot-password">Click here</Link></span> to reset password</p>
+        <div>
+          <p className="w-5/6 py-1 m-2 mt-0 ml-8 mb-0 text-md font-bold text-blue-700 underline">Please Note :</p>
+          <p className="w-5/6 py-1 m-2 mt-0 ml-8 mb-0 text-md font-semibold text-gray-700">By reading the comment in the zen class portal, I assume, you are facing issue in the register itself. But I tested with my own devices & also with other users. All functions and services are working properly. Please validate once again, If you face the same issue, please share the details along with screenshots if possible.</p>
+        </div>
       </div>
     </div>
   )
